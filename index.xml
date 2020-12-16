@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="CarrotCafe.xsl"?>
+<!DOCTYPE CarrotCafe[
+  <!ELEMENT CarrotCafe (record*)>
+  <!ELEMENT record (CakeName, Price, Description)>
+  <!ELEMENT CakeName (#PCDATA)>
+  <!ELEMENT Price (#PCDATA)>
+  <!ELEMENT Description (#PCDATA)>
+
+  <!ELEMENT lop (#PCDATA)>
+]>
+
+<!-- The root element should be the same as file name -->
+<CarrotCafe>
+  <record>
+    <CakeName>Carrot Cake </CakeName>
+    <Price>$15.00</Price>
+    <Description>Delicious afternoon treat with complementary coffee</Description>
+	<lop>keko.gif</lop>
+  </record>
+  <record>
+    <CakeName>Chocolate Cake </CakeName>
+    <Price>$15.00</Price>
+    <Description>Delicious afternoon treat with complementary coffee</Description>
+	<lop>choco.gif</lop>
+  </record>
+  
+  
+  <record>
+    <CakeName>Lemon Cake </CakeName>
+    <Price>$15.00</Price>
+    <Description>Delicious afternoon treat with complementary coffee </Description>
+	<lop>lemon.gif</lop>
+  </record>
+  <record>
+    <CakeName>Orange and poppyseed cake </CakeName>
+    <Price>$15.00</Price>
+    <Description>Delicious afternoon treat with complementary coffee</Description>
+	<lop>cakey.gif</lop>
+  </record>
+  
+
+  
+
+</CarrotCafe>
